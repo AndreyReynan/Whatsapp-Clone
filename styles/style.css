@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    background-color: #202c33;
+}
+.cabecalho .myInfo{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    border-right: 1px solid #cfd4d6;
+}
+.cabecalho .myInfo .myPerfil{
+    position: absolute;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #6a7175;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    left: 14px;
+    top: 10px;
+    cursor: pointer;
+}
+.cabecalho .myInfo .myPerfil i{
+    font-size: 30px;
+    color: #cfd4d6;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+.cabecalho .myInfo .tresPontos{
+    position: absolute;
+    color: #9ea9b0;
+    width: 35px;
+    height: 35px;
+    right:15px;
+    top: 18px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.massages{
+    position: absolute;
+    color: #9ea9b0;
+    right: 75px;
+    top: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cabecalho .infoContact{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+}
+.cabecalho .infoContact .perfilContact{
+    position: absolute;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #6a7175;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    left: 20px;
+    top: 10px;
+}
+.cabecalho .infoContact .perfilContact i{
+    font-size: 30px;
+    color: #cfd4d6;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+.cabecalho .infoContact h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    left: 70px;
+    top: 10px;
+    position: absolute;
+}
+.cabecalho .infoContact p{
+    position: absolute;
+    color: #cfd4d6;
+    left:55px;
+    top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.cabecalho .infoContact .tresPontosContact{
+    position: absolute;
+    color: #9ea9b0;
+    right:35px;
+    top: 18px;
+    font-size: 20px;
+}
+.cabecalho .infoContact .contactSearch{
+    position: absolute;
+    color: #9ea9b0;
+    right: 70px;
+    top: 20px;
+    font-size: 17px;
+}
+.contacts{
+    position: relative;
+    width: 30%;
+    height: 92vh;
+    background-color: #111b21;
+    border-right: 1px solid #cfd4d6;
+}
+.contacts .search{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #202c33;
+    color: #9ea9b0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: flex;
+}
+.contacts .search i, p{
+    margin-left: 30px;
+    line-height: 35px;
+}
+.contacts .contactBox{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #202a31;
+    cursor: pointer;
+}
+.contacts .contactBox:hover{
+    background-color: #2a3942;
+}
+.contacts .contactBox h5{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 20px;
+
+}
+.contacts .contactBox .perfilBox{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #6a7175;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contacts .contactBox .perfilBox i{
+    position: absolute;
+    font-size: 40px;
+    color: #cfd4d6;
+    text-align: center;
+    bottom: 0;
+}
+.contacts #box1{
+    background-color: #2a3942;
+}
+.contacts #box2{
+    top: 130px;
+}
+.contacts #box3{
+    top: calc(130px + 70px);
+}
+.contacts #box4{
+    top: calc(130px + 70px + 70px);
+}
+.contacts #box5{
+    top: calc(130px + 70px + 70px + 70px);
+}
+.contacts #box6{
+    top: calc(130px + 70px + 70px + 70px + 70px);
+}
+.contacts #box7{
+    top: calc(130px + 70px + 70px + 70px + 70px + 70px);
+}
+.contacts #box8{
+    top: calc(130px + 70px + 70px + 70px + 70px + 70px + 70px);
+}
+.chat{
+    background-image: url(./fundo.jpg);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 92vh;
+    width: 70%;
+}
+.chat .messageChat{
+    background-color: #202c33;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+}
+.chat .messageChat .emoji{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.chat .messageChat .emoji i{
+    color: #6a7175;
+    font-size: 30px;
+}
+.chat .messageChat .clip{
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+.chat .messageChat .clip i{
+    color: #6a7175;
+    font-size: 25px;
+}
+.inputMessage{
+    width: 81%;
+    position: absolute;
+    left: 115px;
+    top: 10px;
+    height: 40px;
+}
+.inputMessage input{
+    width: 100%;
+    height: 100%;
+    background-color: #2a3942;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.inputMessage input::placeholder{
+    padding-left: 15px;
+}
+.voiceMessage{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+}
+.voiceMessage i{
+    font-size: 30px;
+    color: #6a7175;
+}
+.messageBox{
+    background-color: #005c4b;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    position: absolute;
+    bottom: 75px;
+    right: 30px;
+    display: none;
+    border-radius: 10px;
+}
+.perfil{
+    width: 30%;
+    height: 100vh;
+    background-color: #111b21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: none;
+}
+.perfilanimation{
+    animation: perfilanimation 0.15s ease;
+}
+.perfil .perfilphoto{
+    /*width: 170px;
+    height: 170px;
+    border-radius: 80px;
+    position: absolute;
+    left: 32%;
+    top: 17%;*/
+    background-color: #6a7175;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfilphotoanimation{
+    animation: perfilphotoanimation 0.3s ease-out;
+}
+.perfilphotoscale{
+    width: 170px;
+    height: 170px;
+    border-radius: 80px;
+    position: absolute;
+    left: 32%;
+    top: 17%;
+}
+.perfil .perfilphoto i{
+    color: #cfd4d6;
+    position: absolute;
+    font-size: 120px;
+    left: 31px;
+    bottom: 0px;
+    display: none;
+}
+.perfil .headervoltar{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: #202c33;
+    top: 0;
+    left: 0;
+}
+.perfil .headervoltar .voltarperfil{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+}
+.perfil .headervoltar .voltarperfil i{
+    color: #cfd4d6;
+    font-size: 20px;
+    cursor: pointer;
+}
+.voltarperfil .voltartxt{
+    color: #cfd4d6;
+    font-family: arial;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.perfil .perfilinfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 48%;
+    color: white;
+    font-family: arial;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+.perfilinfoanimation{
+    animation: perfilinfoanimation 0.3s ease-out;
+}
+.perfilinfoscale{
+    height: 230px;
+}
+.perfil .perfilinfo .nome .escrevernome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.perfil .perfilinfo .nome .escrevernome i{
+    position: absolute;
+    right: 30px;
+    color: #9ea9b0;
+}
+.perfil .perfilinfo .nome .escrevernome p{
+    color: #cfd4d6;
+}
+.perfil .perfilinfo .nome .seunome{
+    color: #076545;
+    font-family: arial;
+}
+.irformacoesnome{
+    color: #6a7175;
+    font-size: 15px;
+    gap: 0;
+}
+.txtverderecado{
+    color: #076545;
+}
+.perfil .perfilinfo .recado .recadoescrever{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.perfil .perfilinfo .recadoescrever i{
+    color: #9ea9b0;
+    position: absolute;
+    right: 30px;
+}
+.newcontacts{
+    background-color: #111b21;
+    width: 0;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.newcontactsanimation{
+    animation: newcontactsanimation 0.3s ease-out;
+}
+.newcontactsscale{
+    width: 30%;
+}
+.newcontacts .headercontacts{
+    position: relative;
+    background-color: #202c33;
+    width: 100%;
+    height: 13%;
+}
+.newcontacts .searchcontacts{
+    background-color: #202c33;
+    color: #9ea9b0;
+    font-family: arial;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 93%;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 9px;
+    margin-left: 4%;
+}
+.newcontacts .searchcontacts i{
+    margin-left: 20px;
+}
+.newcontacts .headercontacts div{
+    position: absolute;
+    color: #cfd4d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    bottom: 7%;
+    left: 7%;
+    font-size: 20px;
+}
+.newcontacts .headercontacts div i{
+    cursor: pointer;
+}
+.newcontacts .boxnewgroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 13px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.newcontacts .boxnewgroup:hover{
+    background-color: #202c33;
+}
+.newcontacts .boxnewgroup .imgnewgroup{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #00a884;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+.newcontacts .boxnewgroup .newgrouptxt{
+    border: 0.5px solid #202a31;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    border-left: none;
+    border-right: none;
+    width: 85%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#usericon1{
+    position: absolute;
+    left: 13px;
+    z-index: 0;
+}
+#usericon2{
+    position: absolute;
+    left: 23px;
+    z-index: 1;
+}
+.maisopcoesvoltar{
+    display: none;
+    background-color: #cfd4d6;
+    opacity: 15%;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    left:369px;
+    top: 12px;
+    cursor: pointer;
+}
+.maisopcoesaba{
+    position: absolute;
+    background-color: #233138;
+    border-radius: 5px;
+    box-shadow: black;
+    display: none;
+    overflow: hidden;
+}
+.maisopcoesanimation{
+    animation: maisopcoesanimation 0.3s ease;
+}
+.maisopcoesscale{
+    top: 55px;
+    left: 190px;
+    height: 260px;
+    width: 210px;
+}
+.maisopcoesaba .box{
+    width: 100%;
+    height: calc(260px/6);
+    color: #cfd4d6;
+    font-family: arial;
+    font-size: 17px;
+    cursor: pointer;
+}
+.maisopcoesaba .box:hover{
+    background-color: #182229;
+}
+.configurations{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #111b21;
+    display: none;
+    overflow: hidden;
+}
+.configanimation{
+    animation: configanimation 0.3s ease;
+}
+.configscale{
+    width: 30%;
+}
+.configurations .headerconfig{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #202c33;
+}
+.configurations .headerconfig .backconfig{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
+    color: #cfd4d6;
+    font-size: 23px;
+    font-family: arial;
+}
+.configurations .headerconfig .backconfig .backconfigicon{
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.configurations .headerconfig .backconfig .titleconfig{
+    width: 180px;
+    text-align: center;
+}
+.configurations .configscroll{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 100%;
+    height: 85%;
+}
+.configurations .configscroll::-webkit-scrollbar{
+    width: 8px;
+}
+.configurations .configoptions::-webkit-scrollbar-track{
+    opacity: 0;
+}
+.configurations .configscroll::-webkit-scrollbar-thumb{
+    background-color: #374045;
+}
+.configurations .searchconfig{
+    position: absolute;
+    width: 93%;
+    top: 1%;
+    left: 3%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #202c33;
+    color: #9ea9b0;
+    font-family: arial;
+    font-size: 13px;
+}
+.configurations .searchconfig i{
+    position: absolute;
+    left: 10px;
+    color: #cfd4d6;
+}
+.configurations .searchconfig p{
+    margin-left: 70px;
+}
+.configurations .perfilconfig{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 9%;
+    cursor: pointer;
+}
+.configurations .perfilconfig:hover{
+    background-color: #202c33;
+}
+.configurations .perfilconfig .perfilconfigphoto{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: #6a7175;
+    color: #cfd4d6;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.configurations .perfilconfig .perfilconfigphoto i{
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+}
+.configurations .perfilconfig .perfilconfignomerecado{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.configurations .perfilconfig .perfilconfignomerecado div{
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    color: #cfd4d6;
+    font-family: arial;
+    text-align: left;
+    font-size: 20px;
+}
+.configurations .perfilconfig .perfilconfignomerecado div h6{
+    margin-top: 10px;
+}
+.configurations .configoptions{
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    top: 25%;
+}
+.configurations .configoptions .configboxoptions{
+    width: 100%;
+    height: calc(580px/9);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #1c272d;
+}
+.configurations .configoptions .configboxoptions:hover{
+    background-color: #202c33;
+}
+.configurations .configoptions .configboxoptions i{
+    color: #8696a0;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.configurations .configoptions .configboxoptions p{
+    color: white;
+    font-family: arial;
+    font-size: 17px;
+}
+
+/*Animações*/
+@keyframes perfilanimation{
+    from{
+        width: 2%;
+    }
+    to{
+        width: 30%;
+    }
+}
+@keyframes perfilphotoanimation{
+    from{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 53%;
+        top: 24%;
+    }
+    to{
+        width: 170px;
+        height: 170px;
+        border-radius: 80px;
+        position: absolute;
+        left: 32%;
+        top: 17%;
+    }
+}
+@keyframes perfilinfoanimation{
+    from{
+        height: 5px;
+    }
+    to{
+        height: 230px;
+    }
+}
+@keyframes newcontactsanimation{
+    from{
+        width: 2%;
+    }
+    to{
+        width: 30%;
+    }
+}
+@keyframes maisopcoesanimation{
+    from{
+        top: 50px;
+        left: 370px;
+        height: 10px;
+        width: 10px;
+    }
+    to{
+        top: 55px;
+        left: 190px;
+        height: 260px;
+        width: 210px;
+    }
+}
+@keyframes configanimation{
+    from{
+        width: 1%;
+    }
+    to{
+        width: 30%;
+    }
+}
